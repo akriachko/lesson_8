@@ -1,0 +1,234 @@
+/* &display=swap */
+@import "null.css";
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ================================================================ */
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background:rgb(31,39,47);
+}
+
+.container {
+	margin: 0 auto;
+	width: 1140px;
+	background: rgb(228, 227, 227);
+	box-shadow: 0px -1px 20px 0px rgba(192, 191, 191, 0.9);
+}
+
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 228px;
+	height: 100px;
+	text-align: center;
+	border: thick double rgb(255, 255, 255);
+}
+
+.btn:hover {
+	opacity: .9;
+}
+
+.btn:active {
+	color: rgba(255, 255, 255, 0.911);	
+	text-shadow: 2px 2px 4px rgba(14, 13, 13, 0.712)
+}
+
+.bg {
+	background: rgb(75,91,115);
+}
+
+.bg-red {
+	background: rgb(190, 14, 14);
+}
+
+.txt {
+	font-size: 20px;
+	color: #fff;
+}
+
+.txt-drive {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.navi {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.bg-img2 {
+	display: block;
+	margin-bottom: 10px;
+	width: 1140px;
+}
+
+.h1-bg {
+	position: relative;
+}
+
+h1 {
+	position: absolute;
+	padding: 25px;
+	top: 0;
+	font-size: 28px;
+	color:#fff	
+}
+
+.h3-absolute {
+	position: absolute;
+	padding: 90px 0px 0px 25px;
+	top: 0;
+	text-decoration: border;
+	font-size: 16px;
+	color:#fff	
+}
+
+.hover-link:hover {
+	opacity: .9;
+	color: rgb(119, 156, 224);
+	text-decoration: underline;
+}
+
+.text-audi {
+	margin-bottom: 20px;
+	color:rgb(109, 109, 110);
+	text-align: center;
+}
+
+.text-p1 {
+	padding: 20px;
+	font-size: 18px;
+	line-height: 1.3;
+	color: rgba(14, 13, 13, 0.856);
+}
+
+.bg-img3 {
+	display: block;
+	margin-bottom: 10px;
+	width: 1140px;
+}
+
+.text-p2 {
+	padding: 20px;
+	font-size: 18px;
+	line-height: 1.3;
+	color: rgba(14, 13, 13, 0.856);
+}
+
+.bg-img4 {
+	display: block;
+	margin-bottom: 10px;
+	width: 1140px;
+}
+
+.text-p3 {
+	padding: 20px;
+	font-size: 18px;
+	line-height: 1.3;
+	color: rgba(14, 13, 13, 0.856);
+}
+
+.navi-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+.navi-2 li {
+	margin: 0px 20px 40px 0px;
+}
+
+.link-hov:hover {
+	opacity: .9;
+	color: rgb(75, 125, 218);
+	text-decoration: underline;
+}
+
+
+.link-hov:active {
+	color: rgba(14, 13, 13, 0.712)
+}
+
+.vk::before {
+	content: "";
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin: 0px 3px -10px 0px;
+	background: url("../icons/vk.png") 0 0 /30px no-repeat;
+}
+
+.fb::before {
+	content: "";
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin: 0px 3px -10px 0px;
+	background: url("../icons/vk.png") 0 0 /30px no-repeat;
+}
+
+.twit::before {
+	content: "";
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin: 0px 5px -10px 0px;
+	background: url("../icons/twit.png") 0 0 /30px no-repeat;
+}
+
+.tg::before {
+	content: "";
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin: 0px 10px -10px 0px;
+	background: url("../icons/tg.png") 0 0 /30px no-repeat;
+}
+
+.vk:hover::before {
+	opacity: .6;
+}
+
+.fb:hover::before {
+	opacity: .6;
+}
+
+.twit:hover::before {
+	opacity: .6;
+}
+
+.tg:hover::before {
+	opacity: .6;
+}
+
+.navi-2 li:hover {	
+	color: rgb(23, 89, 211);
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
